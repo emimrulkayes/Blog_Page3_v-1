@@ -170,6 +170,10 @@ $common-color: #ffffff;
         margin-top: 2rem;
         font-size: 2rem;
         color: $common-color;
+        .home-link {
+            text-decoration: none;
+            color: $common-color;
+        }
     }
 }
 
@@ -370,6 +374,10 @@ p {
         margin-top: 2rem;
         a {
             text-decoration: none;
+            color: #fff;
+            &:hover {
+              color: $primari-color;
+            }
         }
         li {
             list-style: none;

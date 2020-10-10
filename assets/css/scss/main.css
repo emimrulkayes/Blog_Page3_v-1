@@ -180,6 +180,11 @@ body {
   color: #ffffff;
 }
 
+.blog-banner .blog-subTitle .home-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 section {
   padding: 6rem 0;
 }
@@ -403,6 +408,11 @@ p {
 
 .footer-section ul a {
   text-decoration: none;
+  color: #fff;
+}
+
+.footer-section ul a:hover {
+  color: #ffc003;
 }
 
 .footer-section ul li {
